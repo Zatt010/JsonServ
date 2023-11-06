@@ -1,0 +1,220 @@
+{
+  "canciones": [
+    {
+      "Id": 1,
+      "Titulo": "Kill This Love",
+      "Genero": "K-Pop",
+      "Interprete": "Blackpink",
+      "Album": "Kill This Love",
+      "Año": 2019,
+      "Portada": "https://images.genius.com/a1e968c249278f7d832554991d918a76.766x1000x1.jpg"
+    },
+    {
+      "Id": 2,
+      "Titulo": "Love Me Do",
+      "Genero": "Rock",
+      "Interprete": "The Beatles",
+      "Album": "Please Please Me",
+      "Año": 1962,
+      "Portada": "https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df"
+    },
+    {
+      "Id": 3,
+      "Titulo": "Sweet Child o' Mine",
+      "Genero": "Rock",
+      "Interprete": "Guns N' Roses",
+      "Album": "Appetite for Destruction",
+      "Año": 1987,
+      "Portada": "https://m.media-amazon.com/images/I/71H9ZR6EGFL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": 4,
+      "Titulo": "Smells Like Teen Spirit",
+      "Genero": "Grunge",
+      "Interprete": "Nirvana",
+      "Album": "Nevermind",
+      "Año": 1991,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "Id": 5,
+      "Titulo": "Levitating",
+      "Genero": "Pop",
+      "Interprete": "Dua Lipa",
+      "Album": "Future Nostalgia",
+      "Año": 2020,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/f/f5/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png"
+    },
+    {
+      "Id": 6,
+      "Titulo": "DDU-DU DDU-DU",
+      "Genero": "K-Pop",
+      "Interprete": "Blackpink",
+      "Album": "Square Up",
+      "Año": 2018,
+      "Portada": "https://m.media-amazon.com/images/I/612gwm66e8L.jpg"
+    },
+    {
+      "Id": 7,
+      "Titulo": "Yesterday",
+      "Genero": "Rock",
+      "Interprete": "The Beatles",
+      "Album": "Help!",
+      "Año": 1965,
+      "Portada": "https://labotiga.elgenioequivocado.com/wp-content/uploads/2023/02/the-beatles-help-comprar-lp-online.jpg"
+    },
+    {
+      "Id": 8,
+      "Titulo": "November Rain",
+      "Genero": "Rock",
+      "Interprete": "Guns N' Roses",
+      "Album": "Use Your Illusion I",
+      "Año": 1991,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/e/ea/GnR--UseYourIllusion1.jpg"
+    },
+    {
+      "Id": 9,
+      "Titulo": "Come as You Are",
+      "Genero": "Grunge",
+      "Interprete": "Nirvana",
+      "Album": "Nevermind",
+      "Año": 1991,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "Id": 10,
+      "Titulo": "New Rules",
+      "Genero": "Pop",
+      "Interprete": "Dua Lipa",
+      "Album": "Dua Lipa",
+      "Año": 2017,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/2/20/Dua_Lipa_%28album%29.png"
+    },
+    {
+      "Id": 11,
+      "Titulo": "How You Like That",
+      "Genero": "K-Pop",
+      "Interprete": "Blackpink",
+      "Album": "The Album",
+      "Año": 2020,
+      "Portada": "https://m.media-amazon.com/images/I/91PrL5DOUhL._UF894,1000_QL80_.jpg"
+    },
+    {
+      "Id": 12,
+      "Titulo": "Let It Be",
+      "Genero": "Rock",
+      "Interprete": "The Beatles",
+      "Album": "Let It Be",
+      "Año": 1970,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/2/25/LetItBe.jpg"
+    },
+    {
+      "Id": 13,
+      "Titulo": "Paradise City",
+      "Genero": "Rock",
+      "Interprete": "Guns N' Roses",
+      "Album": "Appetite for Destruction",
+      "Año": 1987,
+      "Portada": "https://m.media-amazon.com/images/I/71H9ZR6EGFL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": 14,
+      "Titulo": "In Bloom",
+      "Genero": "Grunge",
+      "Interprete": "Nirvana",
+      "Album": "Nevermind",
+      "Año": 1991,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "Id": 15,
+      "Titulo": "Physical",
+      "Genero": "Pop",
+      "Interprete": "Dua Lipa",
+      "Album": "Future Nostalgia",
+      "Año": 2020,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/f/f5/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png"
+    },
+    {
+      "Id": 16,
+      "Titulo": "Boombayah",
+      "Genero": "K-Pop",
+      "Interprete": "Blackpink",
+      "Album": "Square One",
+      "Año": 2016,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/f/f8/Square_One_-_Blackpink.jpg"
+    },
+    {
+      "Id": 17,
+      "Titulo": "Twist and Shout",
+      "Genero": "Rock",
+      "Interprete": "The Beatles",
+      "Album": "Please Please Me",
+      "Año": 1963,
+      "Portada": "https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df"
+    },
+    {
+      "Id": 18,
+      "Titulo": "Don't Cry",
+      "Genero": "Rock",
+      "Interprete": "Guns N' Roses",
+      "Album": "Use Your Illusion II",
+      "Año": 1991,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/e/ea/GnR--UseYourIllusion1.jpg"
+    },
+    {
+      "Id": 19,
+      "Titulo": "Lithium",
+      "Genero": "Grunge",
+      "Interprete": "Nirvana",
+      "Album": "Nevermind",
+      "Año": 1991,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "Id": 20,
+      "Titulo": "Break My Heart",
+      "Genero": "Pop",
+      "Interprete": "Dua Lipa",
+      "Album": "Future Nostalgia",
+      "Año": 2020,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/f/f5/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png"
+    },
+    {
+      "Id": 21,
+      "Titulo": "Hard to Love",
+      "Genero": "Pop",
+      "Interprete": "Blackpink",
+      "Album": "Born Pink",
+      "Año": 2022,
+      "Portada": "https://m.media-amazon.com/images/I/51+CWIF+xyL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": 22,
+      "Titulo": "Tally",
+      "Genero": "Pop",
+      "Interprete": "Blackpink",
+      "Album": "Born Pink",
+      "Año": 2022,
+      "Portada": "https://m.media-amazon.com/images/I/51+CWIF+xyL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": 23,
+      "Titulo": "Shut Down",
+      "Genero": "Pop",
+      "Interprete": "Blackpink",
+      "Album": "Born Pink",
+      "Año": 2022,
+      "Portada": "https://m.media-amazon.com/images/I/51+CWIF+xyL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": 24,
+      "Titulo": "The Man Who Sold The World",
+      "Genero": "Grunge",
+      "Interprete": "Nirvana",
+      "Album": "MTV Unplugged",
+      "Año": 2022,
+      "Portada": "https://upload.wikimedia.org/wikipedia/en/5/54/Nirvana_mtv_unplugged_in_new_york.png"
+    }
+  ]
+}
