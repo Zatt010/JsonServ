@@ -18,14 +18,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const infoElement = document.createElement("div");
             infoElement.className = "info";
+
             const tituloElement = document.createElement("h1");
             tituloElement.textContent = cancion.Titulo;
 
             const interpreteElement = document.createElement("h2");
             interpreteElement.textContent = `${cancion.Interprete}`;
 
-            const albumElement = document.createElement("p");
+            const albumElement = document.createElement("h3");
             albumElement.textContent = `${cancion.Album}`;
+
+            const generoElement = document.createElement("p");
+            generoElement.textContent = `${cancion.Genero}`;
+
 
             const añoElement = document.createElement("p");
             añoElement.textContent = `${cancion.Año}`;
@@ -33,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             infoElement.appendChild(tituloElement);
             infoElement.appendChild(interpreteElement);
             infoElement.appendChild(albumElement);
+            infoElement.appendChild(generoElement);
             infoElement.appendChild(añoElement);
 
             cancionElement.appendChild(portadaElement);
