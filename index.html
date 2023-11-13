@@ -6,9 +6,15 @@
 </head>
 <body>
     <h1>Lista de Canciones</h1>
+    <input type="text" id="buscarInput" placeholder="Buscar por título...">
+    <button id="buscarButton">Buscar</button>
     <div id="canciones-grid">
     </div>
-
+    <button id="agregarButton">Agregar Canción</button>
+    <div id="agregarCancionForm" style="display: none;">
+        <div id="formulario" class="formulario-container"></div>
+        <button id="aceptarAgregar">Aceptar</button>
+    </div>
     <script src="song.js"></script>
 </body>
 </html>

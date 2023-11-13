@@ -1,0 +1,16 @@
+{
+  "name": "sis-info---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "song.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-json":"json-server --watch canciones.json"
+  },
+  "keywords": [],
+  "author": "Zatt010",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
