@@ -10,8 +10,7 @@ class Cancion {
 
         this.agregarButton.addEventListener("click", () => this.mostrarFormAgregar());
         this.aceptarAgregar.addEventListener("click", () => this.agregarCancion());
-        this.buscarButton.addEventListener("click", () => this.buscarCancion());
-    }
+        this.buscarButton.addEventListener("click", () => {this.buscarCancion();});}
 
     cargarCanciones() {
         fetch("http://localhost:3000/canciones")
@@ -30,28 +29,31 @@ class Cancion {
     mostrarFormAgregar() {
         // Limpiar cualquier contenido previo en el formulario
         this.formularioContainer.innerHTML = "";
-
+    
         // Crear elementos del formulario
         const labels = ["Título", "Género", "Intérprete", "Álbum", "Año", "Portada (URL)"];
         const inputIds = ["tituloInput", "generoInput", "interpreteInput", "albumInput", "añoInput", "portadaInput"];
-
+    
         labels.forEach((label, index) => {
             const labelElement = document.createElement("label");
             labelElement.textContent = `${label}:`;
-
+    
             const inputElement = document.createElement("input");
             inputElement.type = index === 4 ? "number" : "text";
             inputElement.id = inputIds[index];
             inputElement.required = true;
-
+    
             // Agregar al contenedor del formulario
             this.formularioContainer.appendChild(labelElement);
             this.formularioContainer.appendChild(inputElement);
         });
-
+        
         // Mostrar el formulario de agregar
         this.agregarForm.style.display = "block";
+        document.body.scrollIntoView({ behavior: "smooth", block: "end" });
+
     }
+    
 
     ocultarFormAgregar() {
         // Ocultar el formulario de agregar
@@ -90,14 +92,18 @@ class Cancion {
         // Nuevo botón de actualizar
         const updateButton = document.createElement("button");
         updateButton.textContent = "Modificar";
+        updateButton.classList.add("update-button"); // Agrega la clase update-button
         updateButton.addEventListener("click", () => {
             this.habilitarEdicion(cancion);
         });
+
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Eliminar";
+        deleteButton.classList.add("delete-button"); // Agrega la clase delete-button
         deleteButton.addEventListener("click", () => {
             this.confirmarEliminacion(cancion);
         });
+
 
         infoElement.appendChild(tituloElement);
         infoElement.appendChild(interpreteElement);
@@ -137,6 +143,7 @@ habilitarEdicion(cancion) {
             // Botón de confirmar actualización
             const confirmarButton = document.createElement("button");
             confirmarButton.textContent = "Confirmar Actualización";
+            confirmarButton.classList.add("confirmarButtonId");
             confirmarButton.addEventListener("click", () => {
                 const updatedCancion = {
                     id: cancion.id,
@@ -285,6 +292,15 @@ buscarCancion() {
 
 
 document.addEventListener("DOMContentLoaded", () => {
+    const agregarCancionBtn = document.getElementById("agregarCancionBtn");
+    const subir = document.getElementById("subir");
+
+    subir.addEventListener("click", () => {
+        document.body.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+    agregarCancionBtn.addEventListener("click", () => {
+        document.body.scrollIntoView({ behavior: "smooth", block: "end" });
+    });
     const cancion = new Cancion();
     cancion.cargarCanciones();
 });

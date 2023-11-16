@@ -48,19 +48,19 @@
     {
       "id": 6,
       "Titulo": "DDU-DU DDU-DU",
-      "Genero": "K-Pop",
       "Interprete": "Blackpink",
       "Album": "Square Up",
-      "Año": 2018,
+      "Genero": "K-Pop",
+      "Año": "2018",
       "Portada": "https://m.media-amazon.com/images/I/612gwm66e8L.jpg"
     },
     {
       "id": 7,
       "Titulo": "Yesterday",
-      "Genero": "Rock",
       "Interprete": "The Beatles",
       "Album": "Help!",
-      "Año": 1965,
+      "Genero": "Rock",
+      "Año": "1965",
       "Portada": "https://labotiga.elgenioequivocado.com/wp-content/uploads/2023/02/the-beatles-help-comprar-lp-online.jpg"
     },
     {
@@ -224,6 +224,15 @@
       "Año": "2015",
       "Portada": "https://upload.wikimedia.org/wikipedia/en/2/27/Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png",
       "id": 25
+    },
+    {
+      "Titulo": "Noche de Entierro",
+      "Genero": "Urbano ",
+      "Interprete": "Daddy Yankee",
+      "Album": "Los Benjamins",
+      "Año": "2006",
+      "Portada": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/95/71/a59571b8-b118-aba6-1a8b-272b45eaea42/181623001329_cover.jpg/600x600bf-60.jpg",
+      "id": 26
     }
   ]
 }
